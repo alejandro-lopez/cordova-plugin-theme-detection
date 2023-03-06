@@ -17,7 +17,7 @@
         <clobbers target="cordova.plugins.ThemeDetection" />
     </js-module>
 
-    <!-- ios -->
+    <!-- ios
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="ThemeDetection">
@@ -26,7 +26,7 @@
         </config-file>
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
         <source-file src="src/ios/ThemeDetection.swift" />
-    </platform>
+    </platform>-->
 
     <!-- android -->
     <platform name="android">
